@@ -24,3 +24,5 @@ git remote set-url origin https://github.com/panos-albalonga/same_repo_name_as_l
 git remote add origin https://github.com/panos-albalonga/same_repo_name_as_local.git
 
 git push origin master		// Saves Changes in remote repo
+
+//end of file
