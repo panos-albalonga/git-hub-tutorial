@@ -1,0 +1,26 @@
+git version
+
+git config --global user.name "abc"
+git config --global user.email "abc@domain.com"
+
+git init
+
+git status
+
+git add file_name		// Adds file to stage
+
+git commit -m 'Commit comment' 		// Saves changes to repo
+
+git checkout -- .		// Retrieve last saved changes from repo
+
+git clone https://github.com/LearnWebCode/welcome-to-git.git
+
+git remote -v			// shows remote Repo
+
+// Set/Change remote Githup URL
+git remote set-url origin https://github.com/panos-albalonga/same_repo_name_as_local.git
+
+// Add remote Github URL (Create on Github first)
+git remote add origin https://github.com/panos-albalonga/same_repo_name_as_local.git
+
+git push origin master		// Saves Changes in remote repo
